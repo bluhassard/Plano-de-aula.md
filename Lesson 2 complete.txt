@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Lesson 2 - Food Webs</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f2f5f7;
+            color: #1d2935;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 92%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        header {
+            background: linear-gradient(135deg, #173b2f, #20705a);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        .lesson {
+            background: white;
+            margin: 35px 0;
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #17634d;
+            border-bottom: 2px solid #43b581;
+            padding-bottom: 8px;
+            margin-top: 35px;
+        }
+
+        h3 {
+            color: #20705a;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .info-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        .info-card strong {
+            display: block;
+            color: #20705a;
+        }
+
+        .question {
+            background: #e8f7ef;
+            border-left: 6px solid #43b581;
+            padding: 20px;
+            margin: 20px 0;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .highlight {
+            background: #fff5d9;
+            border-left: 6px solid #e7ad32;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .example {
+            background: #edf5ff;
+            border-left: 6px solid #4285f4;
+            padding: 20px;
+            margin: 20px 0;
+            font-size: 18px;
+        }
+
+        .challenge {
+            background: #fff0f0;
+            border-left: 6px solid #d9534f;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th {
+            background: #17634d;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td {
+            border: 1px solid #d7dee3;
+            padding: 12px;
+            vertical-align: top;
+        }
+
+        tr:nth-child(even) {
+            background: #f5f8fa;
+        }
+
+        .international {
+            background: linear-gradient(135deg, #173b2f, #20705a);
+            color: white;
+            padding: 35px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .international h2,
+        .international h3 {
+            color: white;
+        }
+
+        footer {
+            background: #173b2f;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        @media (max-width: 700px) {
+
+            header h1 {
+                font-size: 30px;
+            }
+
+            .lesson {
+                padding: 20px;
+            }
+
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     STEP 01 — HEADER
+     ========================================================= -->
+
+<header>
+
+    <div class="container">
+
+        <h1>Grade 9 Biology</h1>
+
+        <p>
+            Lesson 2: Food Webs
+        </p>
+
+        <p>
+            Ecological Interdependence and Population Change
+        </p>
+
+    </div>
+
+</header>
+
+
+<main class="container">
+
+
+<!-- =========================================================
+     STEP 02 — GENERAL INFORMATION
+     ========================================================= -->
+
+<section class="info-grid">
+
+    <div class="info-card">
+        <strong>Subject</strong>
+        Biology
+    </div>
+
+    <div class="info-card">
+        <strong>Grade</strong>
+        Grade 9
+    </div>
+
+    <div class="info-card">
+        <strong>Unit</strong>
+        Ecology
+    </div>
+
+    <div class="info-card">
+        <strong>Students</strong>
+        Approximately 30
+    </div>
+
+    <div class="info-card">
+        <strong>Duration</strong>
+        90 minutes
+    </div>
+
+    <div class="info-card">
+        <strong>Language</strong>
+        International English
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 03 — CONTEXT
+     ========================================================= -->
+
+<section class="lesson">
+
+    <h2>Step 1 — Lesson Context</h2>
+
+    <div class="question">
+
+        Essential Question:<br>
+
+        How can a change in one population affect
+        an entire ecosystem?
+
+    </div>
+
+    <p>
+
+        This lesson builds on the concept of food chains.
+        Students move from analysing one feeding pathway
+        to understanding multiple interconnected feeding
+        relationships.
+
+    </p>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 04 — OBJECTIVES
+     ========================================================= -->
+
+<section class="lesson">
+
+    <h2>Step 2 — Learning Objectives</h2>
+
+    <ul>
+
+        <li>
+            Explain the difference between a food chain
+            and a food web.
+        </li>
+
+        <li>
+            Construct a simple food web.
+        </li>
+
+        <li>
+            Identify multiple feeding relationships.
+        </li>
+
+        <li>
+            Explain ecological interdependence.
+        </li>
+
+        <li>
+            Predict consequences of population changes.
+        </li>
+
+        <li>
+            Distinguish between direct and indirect effects.
+        </li>
+
+        <li>
+            Use evidence to support ecological predictions.
+        </li>
+
+    </ul>
+
+    <div class="highlight">
+
+        <strong>Expected Learning Outcome:</strong>
+
+        <p>
+
+            Students can analyse a food web and predict how
+            a change in one population may affect other
+            organisms in the ecosystem.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 05 — PROGRAMMATIC CONTENT
+     ========================================================= -->
+
+<section class="lesson">
+
+    <h2>Step 3 — Programmatic Content</h2>
+
+    <h3>Conceptual Content</h3>
+
+    <ul>
+
+        <li>Food webs</li>
+        <li>Interconnected food chains</li>
+        <li>Ecological interdependence</li>
+        <li>Population changes</li>
+        <li>Direct effects</li>
+        <li>Indirect effects</li>
+        <li>Energy flow</li>
+        <li>Ecosystem stability</li>
+
+    </ul>
+
+
+    <h3>Procedural Content</h3>
+
+    <ul>
+
+        <li>Construct food webs.</li>
+        <li>Interpret interconnected relationships.</li>
+        <li>Predict population changes.</li>
+        <li>Trace direct and indirect effects.</li>
+        <li>Justify predictions using evidence.</li>
+
+    </ul>
+
+
+    <h3>Attitudinal Content</h3>
+
+    <ul>
+
+        <li>Systems thinking.</li>
+        <li>Environmental responsibility.</li>
+        <li>Collaboration.</li>
+        <li>Respect for ecosystem complexity.</li>
+        <li>Scientific reasoning.</li>
+
+    </ul>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 06 — METHODOLOGY
+     ========================================================= -->
+
+<section class="lesson">
+
+    <h2>Step 4 — Methodology</h2>
+
+    <ul>
+
+        <li>Inquiry-based learning</li>
+        <li>Systems thinking</li>
+        <li>Collaborative learning</li>
+        <li>Problem-based learning</li>
+        <li>Predict-and-explain strategies</li>
+        <li>Scientific argumentation</li>
+
+    </ul>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 07 — LESSON SEQUENCE
+     ========================================================= -->
+
+<section class="lesson">
+
+    <h2>Step 5 — 90-Minute Lesson Sequence</h2>
+
+    <table>
+
+        <tr>
+
+            <th>Stage</th>
+            <th>Time</th>
+            <th>Teacher Action</th>
+            <th>Student Action</th>
+            <th>Evidence</th>
+
+        </tr>
+
+        <tr>
+
+            <td>Review</td>
+
+            <td>10 min</td>
+
+            <td>
+                Review food chains.
+            </td>
+
+            <td>
+                Recall key concepts.
+            </td>
+
+            <td>
+                Oral responses.
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>Introduction</td>
+
+            <td>15 min</td>
+
+            <td>
+                Introduce food webs.
+            </td>
+
+            <td>
+                Compare food-chain and food-web models.
+            </td>
+
+            <td>
+                Discussion.
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>Investigation</td>
+
+            <td>20 min</td>
+
+            <td>
+                Provide an ecosystem scenario.
+            </td>
+
+            <td>
+                Construct a food web.
+            </td>
+
+            <td>
+                Group diagram.
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>Analysis</td>
+
+            <td>20 min</td>
+
+            <td>
+                Introduce population-change scenarios.
+            </td>
+
+            <td>
+                Predict consequences.
+            </td>
+
+            <td>
+                Written reasoning.
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>Discussion</td>
+
+            <td>15 min</td>
+
+            <td>
+                Facilitate ecological discussion.
+            </td>
+
+            <td>
+                Defend predictions using evidence.
+            </td>
+
+            <td>
+                Scientific argument.
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>Assessment</td>
+
+            <td>10 min</td>
+
+            <td>
+                Administer exit assessment.
+            </td>
+
+            <td>
+                Respond independently.
+            </td>
+
+            <td>
+                Individual assessment.
+            </td>
+
+        </tr>
+
+    </table>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 08 — FOOD CHAIN VS FOOD WEB
+     ========================================================= -->
+
+<section class="lesson">
+
+    <h2>Step 6 — Food Chain vs. Food Web</h2>
+
+    <table>
+
+        <tr>
+
+            <th>Food Chain</th>
+
+            <th>Food Web</th>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                One feeding pathway.
+            </td>
+
+            <td>
+                Multiple interconnected feeding pathways.
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                Linear model.
+            </td>
+
+            <td>
+                Interconnected model.
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                Simpler representation.
+            </td>
+
+            <td>
+                More realistic representation of ecosystems.
+            </td>
+
+        </tr>
+
+    </table>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 09 — GROUP INVESTIGATION
+     ========================================================= -->
+
+<section class="lesson">
+
+    <h2>Step 7 — Group Investigation</h2>
+
+    <h3>Pond Ecosystem</h3>
+
+    <div class="example">
+
+        Possible organisms:
+
+        <br><br>
+
+        Algae,
+        aquatic plants,
+        insects,
+        zooplankton,
+        small fish,
+        large fish,
+        frogs,
+        herons.
+
+    </div>
+
+    <ol>
+
+        <li>Identify producers.</li>
+
+        <li>Identify consumers.</li>
+
+        <li>Draw feeding relationships.</li>
+
+        <li>Add energy-transfer arrows.</li>
+
+        <li>Construct a food web.</li>
+
+        <li>Identify trophic levels.</li>
+
+    </ol>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 10 — POPULATION CHANGE
+     ========================================================= -->
+
+<section class="lesson">
+
+    <h2>Step 8 — Population Change Challenge</h2>
+
+    <div class="challenge">
+
+        <strong>Scenario:</strong>
+
+        <p>
+            The population of small fish decreases significantly.
+        </p>
+
+    </div>
+
+    <h3>Student Reasoning Process</h3>
+
+    <div class="example">
+
+        Predict → Explain → Justify
+
+    </div>
+
+    <h3>Possible Direct Effects</h3>
+
+    <ul>
+
+        <li>
+            Large fish have less food.
+        </li>
+
+        <li>
+            Predators dependent on small fish may experience
+            reduced food availability.
+        </li>
+
+    </ul>
+
+    <h3>Possible Indirect Effects</h3>
+
+    <ul>
+
+        <li>
+            Organisms eaten by small fish may increase.
+        </li>
+
+        <li>
+            Predator populations may decrease.
+        </li>
+
+        <li>
+            Other feeding relationships may become more important.
+        </li>
+
+    </ul>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 11 — SYSTEMS THINKING
+     ========================================================= -->
+
+<section class="lesson">
+
+    <h2>Step 9 — Systems Thinking</h2>
+
+    <div class="question">
+
+        Can a population change affect an organism
+        that it does not directly interact with?
+
+    </div>
+
+    <p>
+
+        Yes. Because organisms are interconnected,
+        effects can move through multiple feeding relationships.
+
+    </p>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 12 — SCIENTIFIC DISCUSSION
+     ========================================================= -->
+
+<section class="lesson">
+
+    <h2>Step 10 — Scientific Discussion</h2>
+
+    <div class="challenge">
+
+        <strong>Scenario:</strong>
+
+        <p>
+            A disease causes the population of frogs to decline.
+        </p>
+
+    </div>
+
+    <h3>Students Analyse</h3>
+
+    <ul>
+
+        <li>Frog prey</li>
+
+        <li>Frog predators</li>
+
+        <li>Competition</li>
+
+        <li>Insect populations</li>
+
+        <li>Indirect ecosystem effects</li>
+
+    </ul>
+
+    <div class="highlight">
+
+        <strong>Teacher Prompt:</strong>
+
+        <p>
+            What evidence from your food web supports
+            your prediction?
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 13 — ASSESSMENT
+     ========================================================= -->
+
+<section class="lesson">
+
+    <h2>Step 11 — Assessment</h2>
+
+    <h3>Formative Assessment</h3>
+
+    <ul>
+
+        <li>Construct food webs.</li>
+
+        <li>Identify feeding relationships.</li>
+
+        <li>Predict population changes.</li>
+
+        <li>Trace direct and indirect effects.</li>
+
+        <li>Explain predictions using evidence.</li>
+
+    </ul>
+
+    <h3>Exit Ticket</h3>
+
+    <ol>
+
+        <li>What is a food web?</li>
+
+        <li>How is it different from a food chain?</li>
+
+        <li>Why are food webs useful?</li>
+
+        <li>
+            Give one possible consequence of a population decrease.
+        </li>
+
+        <li>
+            Explain one direct or indirect effect.
+        </li>
+
+    </ol>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 14 — RUBRIC
+     ========================================================= -->
+
+<section class="lesson">
+
+    <h2>Step 12 — Assessment Rubric</h2>
+
+    <table>
+
+        <tr>
+
+            <th>Criterion</th>
+
+            <th>Beginning</th>
+
+            <th>Developing</th>
+
+            <th>Proficient</th>
+
+            <th>Advanced</th>
+
+        </tr>
+
+        <tr>
+
+            <td>Food-web construction</td>
+
+            <td>
+                Shows few correct relationships.
+            </td>
+
+            <td>
+                Shows some correct relationships.
+            </td>
+
+            <td>
+                Constructs an accurate food web.
+            </td>
+
+            <td>
+                Constructs a complex and accurate food web.
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>Ecological relationships</td>
+
+            <td>
+                Identifies few relationships.
+            </td>
+
+            <td>
+                Identifies basic relationships.
+            </td>
+
+            <td>
+                Explains multiple relationships.
+            </td>
+
+            <td>
+                Explains interconnected relationships in depth.
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>Prediction</td>
+
+            <td>
+                Provides an unsupported prediction.
+            </td>
+
+            <td>
+                Provides a simple prediction.
+            </td>
+
+            <td>
+                Provides a logical prediction.
+            </td>
+
+            <td>
+                Makes a well-supported ecological prediction.
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>Cause and Effect</td>
+
+            <td>
+                Shows limited understanding.
+            </td>
+
+            <td>
+                Identifies direct effects.
+            </td>
+
+            <td>
+                Explains direct and indirect effects.
+            </td>
+
+            <td>
+                Analyses cascading ecological effects.
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>Scientific Reasoning</td>
+
+            <td>
+                Uses little evidence.
+            </td>
+
+            <td>
+                Uses some evidence.
+            </td>
+
+            <td>
+                Uses relevant evidence.
+            </td>
+
+            <td>
+                Uses evidence to construct strong ecological arguments.
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>Collaboration</td>
+
+            <td>
+                Participates minimally.
+            </td>
+
+            <td>
+                Participates with support.
+            </td>
+
+            <td>
+                Works effectively with the group.
+            </td>
+
+            <td>
+                Supports peers and contributes constructively.
+            </td>
+
+        </tr>
+
+    </table>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 15 — INTERNATIONAL SUMMARY
+     ========================================================= -->
+
+<section class="international">
+
+    <h2>
+        Step 13 — Final International Summary
+    </h2>
+
+    <h3>
+        Food Webs: Ecological Interdependence
+    </h3>
+
+    <p>
+
+        A food web represents multiple interconnected feeding
+        relationships within an ecosystem.
+
+    </p>
+
+    <p>
+
+        Unlike a food chain, which shows one pathway,
+        a food web represents the complexity of real ecosystems.
+
+    </p>
+
+    <div class="example">
+
+        Fewer frogs → More insects →
+        Greater pressure on plants
+
+        <br><br>
+
+        Fewer frogs → Less food for some predators →
+        Possible predator decline
+
+    </div>
+
+    <div class="highlight">
+
+        <strong>Key Message:</strong>
+
+        <p>
+
+            Ecosystems are interconnected systems.
+            A change in one population can produce direct
+            and indirect effects throughout the food web.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =========================================================
+     STEP 16 — FOOTER
+     ========================================================= -->
+
+<footer>
+
+    <p>
+        Grade 9 Biology — Lesson 2
+    </p>
+
+    <p>
+        Food Webs and Ecological Interdependence
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>
